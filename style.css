@@ -1,0 +1,69 @@
+body{
+    background-color: #6d6565;
+}
+.for{
+   background-color: aquamarine;
+   width: 50%;
+   height: 50vh;
+   border: 2px solid transparent;
+   margin-top: 10%;
+   background-image: linear-gradient(to top,rgb(184, 193, 201),rgb(224, 235, 224));
+   
+   border-radius: 20px;
+}
+.head{
+  
+    margin-top: 8%;
+    text-align: center;
+    color: #da6bda;
+    height: 15vh;
+}
+.head h3{
+  font-size: 25px;
+ font-family: 'Times New Roman', Times, serif;
+ padding-top: 15px;
+ font-weight: 700;
+}
+.head h5{
+    font-size: 17px;
+    font-family: sans-serif;
+    float: left;
+    margin-left: 40px;
+    font-weight: 300;
+    
+}
+.mail{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+.mail input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #ae5f5f;
+    font-family: sans-serif;
+}
+
+#chatlog{
+   
+margin-top: 25px;
+margin-left: 20px;
+font-size: 15px;
+color: #983ce3;
+font-weight: 500;
+font-family: sans-serif;
+}
+@media screen and (min-width: 380px) and (max-width: 980px) {
+   .for{
+    margin-top: 150px;
+    width: 100%;
+   }
+}
